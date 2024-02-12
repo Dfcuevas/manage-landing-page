@@ -8,3 +8,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  background-image: url("../public/bg-tablet-pattern.svg");
+  background-position: contain;
+  background-repeat: space;
+  background-size: cover;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../public/bg-simplify-section-desktop.svg");
+  }
+
+  body #root {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}

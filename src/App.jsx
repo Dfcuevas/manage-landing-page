@@ -1,9 +1,20 @@
+import { Header } from "./components/Header";
+import { Home } from "./components/Home";
+import { About } from "./components/About";
+import { Testimonials } from "./components/Testimonials";
+import { Info } from "./components/Info";
+import { Footer } from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hola Mundo!!</h1>
+      <Header />
+      <Home />
+      <About />
+      <Testimonials />
+      <Info />
+      <Footer />
     </>
   );
 }
