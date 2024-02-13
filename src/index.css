@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("../public/bg-tablet-pattern.svg");
+  background-image: url("/bg-tablet-pattern.svg");
   background-position: contain;
   background-repeat: space;
   background-size: cover;
@@ -19,10 +19,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background-image: url("../public/bg-simplify-section-desktop.svg");
-  }
-
   body #root {
     margin: 0 auto;
     max-width: 80%;

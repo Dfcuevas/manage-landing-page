@@ -1,0 +1,7 @@
+.hamburguerMenuActive {
+  left: -100%;
+}
+
+.closeMenuActive {
+  left: 0;
+}
