@@ -1,10 +1,10 @@
-import HomeImg from "../../../public/illustration-intro.svg";
+import HomeImg from "/public/illustration-intro.svg";
 import { ButtonStarted } from "../ButtonStarted";
 
 const Home = () => {
   return (
-    <main className="px-6 text-center lg:flex lg:gap-40 lg:px-0 lg:items-center">
-      <section className="lg:order-1 lg:w-[130%]">
+    <main className="px-6 text-center lg:flex lg:gap-40 lg:px-0 lg:items-center mb-32">
+      <section className="lg:order-1 lg:w-[130%] mb-6">
         <img className="w-full" src={HomeImg} alt="Imagen del home" />
       </section>
       <section className="lg:text-left">

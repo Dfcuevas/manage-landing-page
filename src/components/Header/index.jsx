@@ -28,11 +28,11 @@ const Header = () => {
         {renderView()}
       </div>
       <div
-        className={`text-darkBlue opacity-50 fixed top-0 bg-gradient-to-b from-white to-black h-screen w-full px-6 py-24  ${
+        className={`text-darkBlue fixed top-0 bg-gradient-to-b from-white to-darkBlue/50 h-screen w-full px-6 py-24  ${
           view ? "hamburguerMenuActive" : "closeMenuActive "
         } sm:static sm:flex sm:w-auto sm:p-0 sm:h-auto sm:opacity-1 sm:bg-none`}
       >
-        <ul className="flex flex-col sm:flex-row gap-4 md:gap-6 bg-white max-w-full lg:gap-8 text-center py-8 rounded-lg font-bold sm:py-0 sm:w-auto sm:bg-inherit">
+        <ul className="flex flex-col sm:flex-row gap-8 md:gap-6 bg-white max-w-full lg:gap-8 text-center py-8 rounded-lg font-bold sm:py-0 sm:w-auto sm:bg-inherit opacity-1">
           <li className="cursor-pointer hover:text-darkGrayishBlue">Pricing</li>
           <li className="cursor-pointer hover:text-darkGrayishBlue">Product</li>
           <li className="cursor-pointer hover:text-darkGrayishBlue">
