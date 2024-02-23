@@ -1,4 +1,4 @@
-import HomeImg from "/public/illustration-intro.svg";
+import HomeImg from "/illustration-intro.svg";
 import { ButtonStarted } from "../ButtonStarted";
 
 const Home = () => {
