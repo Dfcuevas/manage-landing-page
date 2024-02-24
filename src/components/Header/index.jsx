@@ -17,12 +17,12 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center py-12 px-6 md:px-0 ">
+    <header className="flex justify-between items-center py-12 px-6 md:px-12 lg:px-24">
       <div>
         <img src={Logo} alt={"Logo manage"} />
       </div>
       <div
-        className="cursor-pointer absolute right-6 sm:hidden z-10"
+        className="cursor-pointer fixed right-6 sm:hidden z-10"
         onClick={() => setView(!view)}
       >
         {renderView()}

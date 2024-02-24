@@ -3,7 +3,7 @@ import { ButtonStarted } from "../ButtonStarted";
 
 const Home = () => {
   return (
-    <main className="px-6 text-center lg:flex lg:gap-40 lg:px-0 lg:items-center mb-32">
+    <main className="px-6 text-center lg:flex lg:gap-40 lg:px-24 lg:items-center mb-32">
       <section className="lg:order-1 lg:w-[130%] mb-6">
         <img className="w-full" src={HomeImg} alt="Imagen del home" />
       </section>

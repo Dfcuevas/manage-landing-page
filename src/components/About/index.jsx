@@ -2,7 +2,7 @@ import { ButtonStarted } from "../ButtonStarted";
 
 const About = () => {
   return (
-    <section className="lg:flex lg:gap-20">
+    <section className="lg:flex lg:gap-20 px-2 lg:px-24">
       <div className="text-center px-6 mb-10 lg:px-0">
         <h2 className="text-darkBlue text-4xl lg:text-4xl font-bold leading-[3rem] mb-8 lg:text-left">
           What`s different about Manage?
@@ -16,7 +16,7 @@ const About = () => {
       <div className="px-3">
         <div className="mb-6">
           <h3 className="text-sm font-bold mb-4 bg-veryPaleRed lg:bg-transparent">
-            <ButtonStarted text="01" />
+            <ButtonStarted text="01" aboutSection={true} />
             Track company-wide progress
           </h3>
           <p className="text-darkGrayishBlue leading-7  lg:text-sm lg:leading-6 text-sm lg:ml-[5.2rem]">
@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className="mb-6">
           <h3 className="text-sm font-bold mb-4 bg-veryPaleRed lg:bg-transparent">
-            <ButtonStarted text="02" />
+            <ButtonStarted text="02" aboutSection={true} />
             Advanced built-in reports
           </h3>
           <p className="text-darkGrayishBlue leading-7  lg:text-sm lg:leading-6 text-sm lg:ml-[5.2rem]">
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <div className="mb-6">
           <h3 className="text-sm font-bold mb-4 bg-veryPaleRed lg:bg-transparent">
-            <ButtonStarted text="03" />
+            <ButtonStarted text="03" aboutSection={true} />
             Everything you need in one place
           </h3>
           <p className="text-darkGrayishBlue leading-7  lg:text-sm lg:leading-6 text-sm lg:ml-[5.2rem]">
